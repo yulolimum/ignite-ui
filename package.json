@@ -1,0 +1,24 @@
+{
+  "name": "ignite-ui",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "devDependencies": {
+    "@types/command-line-args": "^5.2.0",
+    "command-line-args": "^5.2.1",
+    "fs-jetpack": "^4.3.1",
+    "simple-git": "^3.13.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.2"
+  },
+  "scripts": {
+    "update": "ts-node -T ./bin/update.ts"
+  },
+  "dependencies": {
+    "react-native-safe-area-context": "4.3.1",
+    "@expo-google-fonts/space-grotesk": "^0.2.2",
+    "expo-localization": "13.1.0",
+    "i18n-js": "3.9.2",
+    "react": "18.0.0",
+    "react-native": "0.69.4"
+  }
+}
